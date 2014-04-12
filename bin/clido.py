@@ -4,7 +4,7 @@
 
 __author__ = "Edward Khou"
 __copyright__ = ""
-__credits__ = ""
+__credits__ = "Inspired by t - another to do list manager. "
 __license__ = ""
 __version__ = "0.0.1"
 __maintainer__ = "Edward Khou"
@@ -13,7 +13,7 @@ __status__ = "prototype"
 
 
 import argparse
-import operator
+# import operator
 
 parser = argparse.ArgumentParser(description="Process some integers. ")
 parser.add_argument('integers',
@@ -29,6 +29,30 @@ parser.add_argument('--sum',
                     help='sum the integers (default: find the max)')
 
 args = parser.parse_args()
-print args.accumulate(args.integers)
+print(args.accumulate(args.integers))
 
-print(1 + 1)
+
+def add_task():
+    return True
+
+
+def edit_task():
+    return True
+
+
+def remove_task():
+    return True
+
+
+def print_task():
+    return True
+
+
+def _main():
+    return True
+
+
+if __name__ == '__main__':
+    _main()
+
+# print(1 + 1)
